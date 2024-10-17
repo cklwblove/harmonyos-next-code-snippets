@@ -3,6 +3,9 @@
 # 使用方法，文档参考：https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/web-debugging-with-devtools-V5
 # 1. 先给执行权限：chmod +x debug.sh
 # 2. 运行直接debug.sh
+# 有些前提：
+# 首先 webview 开启了 setWebDebuggingAccess(true);
+# 其次，执行的时候需要再 App 里打开webview，即访问新开 webview 的H5
 
 # Initial port number
 INITIAL_PORT=9222
